@@ -1,0 +1,23 @@
+{
+    "name": "Mes Disponibilités",
+    "short_name": "Dispos",
+    "description": "Application pour gérer et visualiser les disponibilités des collaborateurs.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFF5F9", // Correspond à --body-bg-rose (fond par défaut)
+    "theme_color": "#D9006C",      // Correspond à la meta theme-color initiale
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable" // Important pour une meilleure intégration visuelle
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }
